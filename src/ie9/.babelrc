@@ -2,7 +2,7 @@
   "presets": [
     ["env", {
       "targets": {
-        "browsers": ["IE >= 7"]
+        "browsers": ["IE >= 9"]
       },
       "useBuiltIns": true
     }]

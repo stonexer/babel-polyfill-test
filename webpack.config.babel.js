@@ -2,10 +2,11 @@ import path from 'path';
 
 const webpackConfig = {
     entry: {
+        'transform-plugins': './src/transform-plugins',
+        'transform-runtime': './src/transform-runtime',
         polyfill: './src/polyfill',
         ie9: './src/ie9',
         chrome: './src/chrome',
-        transform: './src/transform',
     },
     output: {
         path: path.join(__dirname, './dist'),
