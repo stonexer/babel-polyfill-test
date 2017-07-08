@@ -1,0 +1,24 @@
+{
+  "name": "babel-polyfill-test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "tianxin <tianxin.shi@shanbay.com>",
+  "license": "MIT",
+  "scripts": {
+    "babel": "babel src --out-dir dist",
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "core-js": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "webpack": "^3.1.0"
+  }
+}
